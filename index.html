@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Font Link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css File-->
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <main class="bmi">
-        <div class="bmi-cont">
-            <h1 class="bmi-headline">Calculate Your Body BMI🔶</h1>
-            <div class="bmi-form">
-                <div>
-                    <label for="Weight">Weight: </label>
-                    <input type="number" name="number" id="weight"><br />
-                </div>
-                <div>
-                    <label for="Height">Height: </label>
-                    <input type="number" name="number" id="height"><br />
-                </div>
-                <div class="button">
-                    <button onclick="BmiCal()">Sumit</button>
-                    <button onclick="render()">Clear</button>
-                </div>
-                <h2 class="output-bmi-headline" id="bmiCalcutation"></h2>
-                <h3 class="output-bmi--subline" id="message"></h3>
-                <div>
-
-                </div>
-            </div>
+      <div class="bmi-cont">
+        <h1 class="bmi-headline">Calculate Your Body BMI🔶</h1>
+        <div class="bmi-form">
+          <div>
+            <label for="Weight">Weight: </label>
+            <input type="number" name="number" id="weight" /><br />
+          </div>
+          <div>
+            <label for="Height">Height: </label>
+            <input type="number" name="number" id="height" /><br />
+          </div>
+          <div class="button">
+            <button onclick="BmiCal()">Sumit</button>
+            <button onclick="render()">Clear</button>
+          </div>
+          <h2 class="output-bmi-headline" id="bmiCalcutation"></h2>
+          <h3 class="output-bmi--subline" id="message"></h3>
+          <div></div>
         </div>
+      </div>
     </main>
-
-
-
 
     <!-- js file -->
     <script src="/app.js"></script>
-</body>
-
+  </body>
 </html>
